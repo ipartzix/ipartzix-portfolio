@@ -1,317 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Partha Paul | Portfolio</title>
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" type="image/png">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <div class="wrap">
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Partha Paul | Portfolio</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/1055/1055646.png"
+      type="image/png"
+    />
+    <!-- added perosnal logo -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap">
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle Dark/Light Mode"
+        >
           ☀️
-      </button>
+        </button>
 
-      <a class="brand" href="#home">
-        <img src="assets/profile.jpg" alt="Partha Paul" class="brand-img">
-        <div>
-          <div class="brand-name">Partha Paul</div>
-          <div class="brand-tag">Core CS Engineer · AI/ML Practitioner · Systems Developer</div>
-        </div>
-      </a>
-      <nav class="nav">
-        <button id="menuBtn" class="menu-btn" aria-label="Menu">☰</button>
-        <ul id="navList" class="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="home" class="hero">
-    <div class="hero-grid wrap">
-      <div class="hero-left">
-        <h1 class="anim-fade-in-up" style="animation-delay: 0.1s;">Hey there, I'm <span class="accent">Partha Paul</span></h1>
-        <h3 class="anim-fade-in-up" style="animation-delay: 0.2s;">Core CS Engineer | AI/ML Practitioner | Systems Developer</h3>
-        <p class="anim-fade-in-up" style="animation-delay: 0.3s;">Turning big dreams into impactful code, one project at a time. I build system-level software and AI/ML solutions with emphasis on correctness, performance, and production-readiness.</p>
-
-        <div class="cta-row anim-fade-in-up" style="animation-delay: 0.4s; ">
-          <a class="btn primary" href="assets/Partha_Paul_Resume.pdf" download>Download Resume</a>
-          <a class="btn outline" href="mailto:parthapaul2705@gmail.com">Email Me</a>
-        </div>
-
-        <div class="social-icons anim-fade-in-up" style="animation-delay: 0.5s;">
-          <a href="https://github.com/ipartzix" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-          </a>
-          <a href="https://www.linkedin.com/in/ipartzix" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
-          </a>
-          <a href="https://www.instagram.com/ipartzix" target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
-          </a>
-          <a href="https://www.facebook.com/ipartzix" target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-          </a>
-          <a href="https://www.youtube.com/@ipartzix" target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
-          </a>
-        </div>
-      </div>
-
-      <aside class="hero-right anim-fade-in-up" style="animation-delay: 0.2s;">
-        <div class="profile-card">
-          <img src="assets/profile.jpg" alt="Partha" class="profile-large">
-          <div class="profile-meta">
-            <div class="p-name">Partha Paul</div>
-            <div class="p-tag">Core CS Engineer · AI/ML Practitioner</div>
-          </div>
-          <a class="pill" href="#projects">See Projects →</a>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <section id="about" class="section">
-    <div class="wrap card reveal">
-      <h2>About Me</h2>
-      <p class="lead">I’m a <strong>passionate and hardworking Computer Science Engineering student</strong> (3rd year, 5th semester) driven by curiosity and a vision to create technologies that solve real-world problems. I thrive under deadlines and deliver clean, efficient, scalable code.</p>
-      <p>My mission is to master core CS fundamentals — from Operating Systems and DBMS to advanced algorithms — and apply them to build high-performance AI/ML and system-level applications. Outside engineering, I enjoy photography, travel, and hardware tinkering (IoT & robotics).</p>
-    </div>
-  </section>
-  
-  <section id="education" class="section">
-    <div class="wrap reveal">
-      <h2>Education</h2>
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content card">
-            <div class="edu-date">2023 – 2027 (Expected)</div>
-            <h3>B.Tech in Computer Science & Engineering</h3>
-            <p><strong>Global Institute of Management and Technology</strong></p>
-            <p class="edu-detail">Affiliated to MAKAUT, WB</p>
-            <div class="edu-score-pill">Current CGPA: 7.21 (Till 5th Sem)</div>
-          </div>
-        </div>
-        
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content card">
-            <div class="edu-date">2023</div>
-            <h3>Higher Secondary (12th)</h3>
-            <p><strong>Chakdaha Purbachal Vidhyapith (HS)</strong></p>
-            <p class="edu-detail">WBCHSE | Stream: Pure Science</p>
-            <div class="edu-score-pill">Percentage: 68%</div>
-          </div>
-        </div>
-        
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content card">
-            <div class="edu-date">2021</div>
-            <h3>Secondary (10th)</h3>
-            <p><strong>Chakdaha Purbachal Vidhyapith (HS)</strong></p>
-            <p class="edu-detail">West Bengal Board of Secondary Education (WBBSE)</p>
-            <div class="edu-score-pill">Percentage: 86%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="skills" class="section">
-    <div class="wrap">
-      <h2>Technical Competencies</h2>
-      
-      <div class="skills-row-1">
-        
-        <div class="skills-category card reveal">
-          <h3><span class="accent-icon">💻</span> Programming Languages</h3>
-          <div class="icon-grid">
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"><span>C</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"><span>C++</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
-            <div class="icon-card">
-              <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/verilog.svg" alt="Verilog"> 
-              <span>Verilog (HDL)</span>
-            </div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5/CSS3"><span>HTML5/CSS3</span></div>
-          </div>
-        </div>
-        
-        <div class="skills-category card reveal">
-          <h3><span class="accent-icon">💡</span> Core CS & Systems</h3>
-          <ul class="skills-list-grid">
-            <li>Data Structures & Algorithms (DSA)</li>
-            <li>Operating Systems (OS)</li>
-            <li>Database Management Systems (DBMS)</li>
-            <li>Computer Networks (CN)</li>
-            <li>Object-Oriented Programming (OOP)</li>
-            <li>Low-Level System Design</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="skills-row-2">
-        
-        <div class="skills-category card reveal">
-          <h3><span class="accent-icon">🧠</span> AI/ML & Data</h3>
-          <div class="icon-grid">
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"><span>TensorFlow</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy"><span>NumPy</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"><span>Pandas</span></div>
-            <div class="icon-card"><img src="https://raw.githubusercontent.com/opencv/opencv/master/samples/data/opencv-logo-white.png" alt="OpenCV"><span>OpenCV</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn"><span>Scikit-learn</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></div>
-          </div>
-        </div>
-
-        <div class="skills-category card reveal">
-          <h3><span class="accent-icon">🛠️</span> Tools & Platforms</h3>
-          <div class="icon-grid">
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><span>GitHub</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"><span>VS Code</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ"><span>IntelliJ</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"><span>Linux</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask"><span>Flask</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clion/clion-original.svg" alt="CLion"><span>CLion</span></div>
-            <div class="icon-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm"><span>PyCharm</span></div>
-            <div class="icon-card">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="Dev C++">
-              <span>Dev C++</span>
+        <a class="brand" href="#home">
+          <img src="assets/profile.jpg" alt="Partha Paul" class="brand-img" />
+          <div>
+            <div class="brand-name">Partha Paul</div>
+            <div class="brand-tag">
+              Core CS Engineer · AI/ML Practitioner · Systems Developer
             </div>
           </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-  <section id="projects" class="section">
-    <div class="wrap">
-      <h2>Featured Projects</h2>
-      <div class="projects-grid">
-        <article class="project-card">
-          <h3>Face Detection (OpenCV)</h3>
-          <p>A Computer Vision project using Haar Cascade for real-time face detection.</p>
-          <div class="meta"><strong>Tech:</strong> Python · OpenCV</div>
-          <div class="links"><a href="https://github.com/ipartzix/Face-Detection-Using-OpenCV" target="_blank">Code</a></div>
-        </article>
-
-        <article class="project-card">
-          <h3>Instant PDF Merger</h3>
-          <p>Utility to merge multiple PDF files with robust error handling and efficient I/O.</p>
-          <div class="meta"><strong>Tech:</strong> Python · PyPDF2</div>
-          <div class="links"><a href="https://github.com/ipartzix/instant-pdf-merger" target="_blank">Code</a></div>
-        </article>
-
-        <article class="project-card">
-          <h3>Film Fusion</h3>
-          <p>Responsive web app for exploring movies and shows. Front-end routing and API integration.</p>
-          <div class="meta"><strong>Tech:</strong> JavaScript · React/Next.js</div>
-          <div class="links"><a href="https://film-fusion-001.vercel.app/" target="_blank">Live</a> · <a href="https://github.com/ipartzix/Film-Fusion" target="_blank">Code</a></div>
-        </article>
-
-        <article class="project-card">
-          <h3>Custom OS Kernel Experiments</h3>
-          <p>Bootloader and scheduler prototypes demonstrating memory management and context switching.</p>
-          <div class="meta"><strong>Tech:</strong> C · Assembly · QEMU</div>
-          <div class="links"><a href="#" target="_blank">Repo</a></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="resume" class="section">
-    <div class="wrap card">
-      <h2>Resume & Achievements</h2>
-      <a style="margin-left: 150px;" class="btn primary" href="assets/Partha_Paul_Resume.pdf" download>Download Resume (PDF)</a>
-      <div class="two-col mt-20">
-        <div>
-          <h4>Achievements</h4>
-          <ul>
-            <li>Selected team for Smart India Hackathon (AI project)</li>
-            <li>OS kernel experiments and compiler prototypes</li>
-            <li>Active GitHub with systems and ML projects</li>
+        </a>
+        <nav class="nav">
+          <button id="menuBtn" class="menu-btn" aria-label="Menu">☰</button>
+          <ul id="navList" class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
-        </div>
-        <div>
-          <h4>Certifications</h4>
-          <p>
-            <a class="link" href="https://learn.microsoft.com/en-us/users/ipartzix" target="_blank">
-              View All Badges on Microsoft Learn →
-            </a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-grid wrap">
+        <div class="hero-left">
+          <h1 class="anim-fade-in-up" style="animation-delay: 0.1s">
+            Hey there, I'm <span class="accent">Partha Paul</span>
+          </h1>
+          <h3 class="anim-fade-in-up" style="animation-delay: 0.2s">
+            Core CS Engineer | AI/ML Practitioner | Systems Developer
+          </h3>
+          <p class="anim-fade-in-up" style="animation-delay: 0.3s">
+            Turning big dreams into impactful code, one project at a time. I
+            build system-level software and AI/ML solutions with emphasis on
+            correctness, performance, and production-readiness.
           </p>
-          <ul>
-            <li>Completed learning paths from Microsoft Learn.</li>
-            <li>Azure AI Fundamentals</li>
-            <li>Foundations of Artificial Intelligence</li>
-            <li>Get started with C++</li>
-            <li>Get started with Python</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="publications" class="section">
-    <div class="wrap card">
-      <h2>Publications</h2>
-      <p><strong>Training BCI-Based Assistive Technology for People with Disabilities</strong><br>
-      Rupam Hazra, Parag Chatterjee, Soumen Ghosh, Partha Paul, Sudeep Biswas — Global Institute of Management & Technology.</p>
-      <p><a class="link" href="https://www.igi-global.com/affiliate/partha-paul/514208" target="_blank">View profile & publication on IGI Global</a></p>
-    </div>
-  </section>
-
-  <section id="contact" class="section">
-    <div class="wrap">
-      <h2>Contact</h2>
-      <div class="two-col">
-        <div class="card">
-          <h4>Get in touch</h4>
-          <p>I respond to serious internship and collaboration inquiries. Include a short summary of your message.</p>
-          <p><strong>Email:</strong> <a class="link" href="mailto:parthapaul2705@gmail.com">parthapaul2705@gmail.com</a></p>
-          <p><strong>Connect:</strong> <a href="https://github.com/ipartzix" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/ipartzix" target="_blank">LinkedIn</a></p>
-        </div>
-        <form id="contactForm" class="card">
-          <h4>Send a quick message</h4>
-          <input id="c-name" type="text" placeholder="Your name" required>
-          <input id="c-email" type="email" placeholder="Your email" required>
-          <textarea id="c-message" rows="6" placeholder="Message" required></textarea>
-          <div class="form-row">
-            <button class="btn primary" type="submit">Send</button>
-            <button class="btn outline" type="reset">Reset</button>
+          <div class="cta-row anim-fade-in-up" style="animation-delay: 0.4s">
+            <a class="btn primary" href="assets/Partha_Paul_Resume.pdf" download
+              >Download Resume</a
+            >
+            <a class="btn outline" href="mailto:parthapaul2705@gmail.com"
+              >Email Me</a
+            >
           </div>
-          <p class="note">Opens your email client. For production, integrate Formspree/Netlify Forms/server endpoint.</p>
-        </form>
-      </div>
-    </div>
-  </section>
 
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <div>© <span id="year"></span> Partha Paul — All rights reserved.</div>
-      <div class="footer-links">
-        <a href="https://twitter.com/ipartzix" target="_blank">Twitter</a>
-        <a href="https://leetcode.com/ipartzix" target="_blank">LeetCode</a>
-        <a href="https://www.hackerrank.com/ipartzix" target="_blank">HackerRank</a>
-      </div>
-    </div>
-  </footer>
+          <div
+            class="social-icons anim-fade-in-up"
+            style="animation-delay: 0.5s"
+          >
+            <a
+              href="https://github.com/ipartzix"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ipartzix"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                alt="LinkedIn"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/ipartzix"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                alt="Instagram"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/ipartzix"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+                alt="Facebook"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/@ipartzix"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+                alt="YouTube"
+              />
+            </a>
+          </div>
+        </div>
 
-  <script src="script.js"></script>
-</body>
+        <aside class="hero-right anim-fade-in-up" style="animation-delay: 0.2s">
+          <div class="profile-card">
+            <img src="assets/profile.jpg" alt="Partha" class="profile-large" />
+            <div class="profile-meta">
+              <div class="p-name">Partha Paul</div>
+              <div class="p-tag">Core CS Engineer · AI/ML Practitioner</div>
+            </div>
+            <a class="pill" href="#projects">See Projects →</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap card reveal">
+        <h2>About Me</h2>
+        <p class="lead">
+          I’m a
+          <strong
+            >passionate and hardworking Computer Science Engineering
+            student</strong
+          >
+          (3rd year, 5th semester) driven by curiosity and a vision to create
+          technologies that solve real-world problems. I thrive under deadlines
+          and deliver clean, efficient, scalable code.
+        </p>
+        <p>
+          My mission is to master core CS fundamentals — from Operating Systems
+          and DBMS to advanced algorithms — and apply them to build
+          high-performance AI/ML and system-level applications. Outside
+          engineering, I enjoy photography, travel, and hardware tinkering (IoT
+          & robotics).
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="wrap reveal">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <div class="edu-date">2023 – 2027 (Expected)</div>
+              <h3>B.Tech in Computer Science & Engineering</h3>
+              <p>
+                <strong>Global Institute of Management and Technology</strong>
+              </p>
+              <p class="edu-detail">Affiliated to MAKAUT, WB</p>
+              <div class="edu-score-pill">
+                Current CGPA: 7.21 (Till 5th Sem)
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <div class="edu-date">2023</div>
+              <h3>Higher Secondary (12th)</h3>
+              <p><strong>Chakdaha Purbachal Vidhyapith (HS)</strong></p>
+              <p class="edu-detail">WBCHSE | Stream: Pure Science</p>
+              <div class="edu-score-pill">Percentage: 68%</div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <div class="edu-date">2021</div>
+              <h3>Secondary (10th)</h3>
+              <p><strong>Chakdaha Purbachal Vidhyapith (HS)</strong></p>
+              <p class="edu-detail">
+                West Bengal Board of Secondary Education (WBBSE)
+              </p>
+              <div class="edu-score-pill">Percentage: 86%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="wrap">
+        <h2>Technical Competencies</h2>
+
+        <div class="skills-row-1">
+          <div class="skills-category card reveal">
+            <h3><span class="accent-icon">💻</span> Programming Languages</h3>
+            <div class="icon-grid">
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                  alt="Java"
+                /><span>Java</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                /><span>Python</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                  alt="C"
+                /><span>C</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  alt="C++"
+                /><span>C++</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                /><span>JavaScript</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/verilog.svg"
+                  alt="Verilog"
+                />
+                <span>Verilog (HDL)</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML5/CSS3"
+                /><span>HTML5/CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category card reveal">
+            <h3><span class="accent-icon">💡</span> Core CS & Systems</h3>
+            <ul class="skills-list-grid">
+              <li>Data Structures & Algorithms (DSA)</li>
+              <li>Operating Systems (OS)</li>
+              <li>Database Management Systems (DBMS)</li>
+              <li>Computer Networks (CN)</li>
+              <li>Object-Oriented Programming (OOP)</li>
+              <li>Low-Level System Design</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-row-2">
+          <div class="skills-category card reveal">
+            <h3><span class="accent-icon">🧠</span> AI/ML & Data</h3>
+            <div class="icon-grid">
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                  alt="TensorFlow"
+                /><span>TensorFlow</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                  alt="NumPy"
+                /><span>NumPy</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                  alt="Pandas"
+                /><span>Pandas</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://raw.githubusercontent.com/opencv/opencv/master/samples/data/opencv-logo-white.png"
+                  alt="OpenCV"
+                /><span>OpenCV</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                  alt="Scikit-learn"
+                /><span>Scikit-learn</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  alt="MySQL"
+                /><span>MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category card reveal">
+            <h3><span class="accent-icon">🛠️</span> Tools & Platforms</h3>
+            <div class="icon-grid">
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                /><span>Git</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub"
+                /><span>GitHub</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                  alt="VS Code"
+                /><span>VS Code</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
+                  alt="IntelliJ"
+                /><span>IntelliJ</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                  alt="Linux"
+                /><span>Linux</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+                  alt="Flask"
+                /><span>Flask</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clion/clion-original.svg"
+                  alt="CLion"
+                /><span>CLion</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"
+                  alt="PyCharm"
+                /><span>PyCharm</span>
+              </div>
+              <div class="icon-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  alt="Dev C++"
+                />
+                <span>Dev C++</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Face Detection (OpenCV)</h3>
+            <p>
+              A Computer Vision project using Haar Cascade for real-time face
+              detection.
+            </p>
+            <div class="meta"><strong>Tech:</strong> Python · OpenCV</div>
+            <div class="links">
+              <a
+                href="https://github.com/ipartzix/Face-Detection-Using-OpenCV"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Instant PDF Merger</h3>
+            <p>
+              Utility to merge multiple PDF files with robust error handling and
+              efficient I/O.
+            </p>
+            <div class="meta"><strong>Tech:</strong> Python · PyPDF2</div>
+            <div class="links">
+              <a
+                href="https://github.com/ipartzix/instant-pdf-merger"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Film Fusion</h3>
+            <p>
+              Responsive web app for exploring movies and shows. Front-end
+              routing and API integration.
+            </p>
+            <div class="meta">
+              <strong>Tech:</strong> JavaScript · React/Next.js
+            </div>
+            <div class="links">
+              <a href="https://film-fusion-001.vercel.app/" target="_blank"
+                >Live</a
+              >
+              ·
+              <a href="https://github.com/ipartzix/Film-Fusion" target="_blank"
+                >Code</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Custom OS Kernel Experiments</h3>
+            <p>
+              Bootloader and scheduler prototypes demonstrating memory
+              management and context switching.
+            </p>
+            <div class="meta"><strong>Tech:</strong> C · Assembly · QEMU</div>
+            <div class="links"><a href="#" target="_blank">Repo</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="wrap card">
+        <h2>Achievements and Certifications</h2>
+
+        <div class="two-col mt-20">
+          <div>
+            <h4>Achievements</h4>
+            <ul>
+              <li>Selected team for Smart India Hackathon (AI project)</li>
+              <li>OS kernel experiments and compiler prototypes</li>
+              <li>Active GitHub with systems and ML projects</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Certifications</h4>
+            <p>
+              <a
+                class="link"
+                href="https://learn.microsoft.com/en-us/users/ipartzix"
+                target="_blank"
+              >
+                View All Badges on Microsoft Learn →
+              </a>
+            </p>
+            <ul>
+              <li>Completed learning paths from Microsoft Learn.</li>
+              <li>Azure AI Fundamentals</li>
+              <li>Foundations of Artificial Intelligence</li>
+              <li>Get started with C++</li>
+              <li>Get started with Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="wrap card">
+        <h2>Publications</h2>
+        <p>
+          <strong
+            >Training BCI-Based Assistive Technology for People with
+            Disabilities</strong
+          ><br />
+          Rupam Hazra, Parag Chatterjee, Soumen Ghosh, Partha Paul, Sudeep
+          Biswas — Global Institute of Management & Technology.
+        </p>
+        <p>
+          <a
+            class="link"
+            href="https://www.igi-global.com/affiliate/partha-paul/514208"
+            target="_blank"
+            >View profile & publication on IGI Global</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <div class="two-col">
+          <div class="card">
+            <h4>Get in touch</h4>
+            <p>
+              I respond to serious internship and collaboration inquiries.
+              Include a short summary of your message.
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a class="link" href="mailto:parthapaul2705@gmail.com"
+                >parthapaul2705@gmail.com</a
+              >
+            </p>
+            <p>
+              <strong>Connect:</strong>
+              <a href="https://github.com/ipartzix" target="_blank">GitHub</a> ·
+              <a href="https://www.linkedin.com/in/ipartzix" target="_blank"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+          <form id="contactForm" class="card">
+            <h4>Send a quick message</h4>
+            <input id="c-name" type="text" placeholder="Your name" required />
+            <input
+              id="c-email"
+              type="email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              id="c-message"
+              rows="6"
+              placeholder="Message"
+              required
+            ></textarea>
+            <div class="form-row">
+              <button class="btn primary" type="submit">Send</button>
+              <button class="btn outline" type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <div>© <span id="year"></span> Partha Paul — All rights reserved.</div>
+        <div class="footer-links">
+          <a href="https://twitter.com/ipartzix" target="_blank">Twitter</a>
+          <a href="https://leetcode.com/ipartzix" target="_blank">LeetCode</a>
+          <a href="https://www.hackerrank.com/ipartzix" target="_blank"
+            >HackerRank</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
